@@ -2,7 +2,7 @@
 
 **This is my personal website.**
 
-My website is live at https://wisuchoi.netlify.com/.
+My website is live at https://wisuchoi.netlify.com.
 
 Kudos to [HTML5 UP](https://html5up.net/strata) for the base template.
 

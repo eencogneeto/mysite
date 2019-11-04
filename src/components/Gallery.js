@@ -1,6 +1,9 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Carousel, { Modal, ModalGateway } from "react-images";
+import { Link } from 'gatsby';
+
+import twelvetonematrix from '../pages/twelvetonematrix'
 
 class Gallery extends Component {
     constructor () {
@@ -38,6 +41,9 @@ class Gallery extends Component {
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
+                    <ul className="actions">
+                        <Link to={obj.link} className="button">More about this work</Link>
+                    </ul>
                 </article>
             );
         });
