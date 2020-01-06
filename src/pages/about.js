@@ -26,6 +26,8 @@ class About extends React.Component {
                         </header>
                         <p>
                             I am currently pursuing my Bachelor's in Computer Science at the National University of Singapore.
+                        </p>
+                        <p>
                             My studies are focused on AI, Machine Learning and Deep Learning. I also have some interest in cloud 
                             computing, quantum computing and robotics. While I do find the theroretical foundations and logic 
                             beneath the subject interesting, I prefer to be building solutions which I, and hopefully many others 

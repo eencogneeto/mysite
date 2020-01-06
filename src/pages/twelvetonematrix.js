@@ -50,7 +50,7 @@ class Twelvetonematrix extends React.Component {
                         <p>
                             I hope you will find this tool useful! (especially you music students)
                         </p>
-                        <iframe src="https://twelvetonematrix.netlify.com/" width="900" height="600"></iframe>
+                        <iframe title={siteTitle} src="https://twelvetonematrix.netlify.com/" width="900" height="600"></iframe>
                         <ul className="actions">
                             <Link to="/#work" className="button">Back</Link>
                         </ul>
